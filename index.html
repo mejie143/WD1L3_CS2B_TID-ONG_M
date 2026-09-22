@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- setting up charset -->
+        <meta charset="UTF-8" />
+        <!-- setting up page author -->
+        <meta name="author" content="M Tid-ong"/>
+        <!-- seting up page refresher -->
+        <meta http-equiv="refresh" content="30" />
+        <!-- setting up viewport -->
+        <meta name="viewport" 
+        content="width=device-width, initial-scale=1.0" />
+
+        <title>Veggie Tekky Shop</title>
+        <!-- External CSS -->
+        <link rel="stylesheet" href="css/styles.css" />
+
+        <!-- Internal CSS -->
+         <style>
+            .internal-css {
+                background: lightyellow;
+                border-left: 10px solid yellow;
+                padding: 12px 16px;
+                margin: 20px 0;
+                color: black;
+            }
+            
+         </style>
+    </head>
+    <body>
+        <header class="top-header">
+            <!-- Create Area for Logo-->
+            <div class="brand">
+                <span class="brand-mark">VTS</span>
+                <h1>Veggie Tekky Shop</h1>
+            </div>
+            <!-- navigation bar-->
+            <nav class="navbar">
+                <ul class="nav-list">
+                    <li><a href="#home">Home</a></li>
+                    <li class="dropdown">
+                        <a href="#collections">Collections</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#tuber">Tuber veggies</a></li>
+                            <li><a href="#root">Root Veggies</a></li>
+                            <li><a href="#leafy">Leafy veggies</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <main id="home" class="container">
+            <section class="hero">
+                <div class="hero-text">
+                    <p class="eyebrow">Premium Veggies Presentation</p>
+                    <h2>Eat healthy. Be healthy.</h2>
+                    <p>
+                        Explore and try out our vegetables available in our store.
+                        Fresh from the garden upon ordering.
+                    </p>
+                    <a class="btn" href="#gallery">View Collection</a>
+                    <p class="hero-note">
+                        Eating <strong>healthy</strong> and being <strong></strong>Healthy</strong> leads to <strong>positivity</strong> 
+                        &nbsp;.
+                    </p>
+                </div>
+
+                 <div class="hero-image">
+                    <img 
+                        src="media/mainveg.jpg"
+                        alt="Wide variety of Vegetables"
+                        class="veggie-img"
+                        />
+                 </div>                
+            </section>
+            
+            <!-- This is CSS Internal Demo-->
+             <section class="internal-css">
+                <h2>In for more highlights?</h2>
+                <p>Vegetables come with their own health benefits.
+                    Check out our collection of vegetables and their benefits.
+                </p>
+             </section>
+
+            <section id="features" class="content-grid">
+                <article class="card">
+                    <h3>Vegetable's Benefits</h3>
+                    <ul class="features-list">
+                        <li>Improves Heart Health</li>
+                        <li>Boosts Digestion</li>
+                        <li>Aids Weight Management</li>
+                        <li>Strengthens Immunity</li>
+                        <li>Lowers Disease Risk</li>
+                    </ul>
+                </article>
+
+                <article class="card">
+                    <h2>Benefit Guide</h2>
+                    <table class="size-table">
+                        <thead>
+                            <tr>
+                                <th>Type of Vegetable</th>
+                                <th>Specific Benefit</th>
+                                <th>Effectiveness <br>
+                                    (1-lowest, 5-highest)
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1. Cabbage</td>
+                                <td>Reduces Inflammation</td>
+                                <td>5</td>
+                            </tr>
+                            <tr>
+                                <td>2. Broccoli</td>
+                                <td>Fights Chronic Disease</td>
+                                <td>5</td>
+                            </tr>
+                            <tr>
+                                <td>3. Potato</td>
+                                <td>Aids Gut Health</td>
+                                <td>4</td>
+                            </tr>
+                            <tr>
+                                <td>4. Coriander</td>
+                                <td>Lowers Blood Sugar</td>
+                                <td>3</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </article>
+            </section>
+
+            <section id="gallery" class="gallery-section">
+                <h2>The Veggies Gallery</h2>
+                <div class="gallery">
+                    <img src="media/gallery1.jpg" />
+                    <img src="media/gallery2.jpg" />
+                    <img src="media/gallery3.jpg" />
+                </div>
+            </section>
+
+            <section class="info-columns">
+                <div class="card" id="tuber">
+                    <h2>Why buy these vegetables</h2>
+                    <ol>
+                        <li>Provides Health Benefits</li>
+                        <li>Helps Weight Loss and Maintenance</li>
+                        <li>Health is Wealth</li>
+                    </ol>
+                </div>
+
+                <div class="card" id="leafy">
+                    <h2>Purchase Links</h2>
+                    <p>Visit Our 
+                        <a href="#" class="text-link">
+                            Official Store
+                        </a>
+                        or Check our
+                        <a href="#" class="text-link">
+                            New Arrivals
+                        </a>
+                    </p>
+                    <p>
+                        <i class="shoe-icon">😱</i>
+                        Designed for Style and Performance.
+                    </p>
+                </div>
+            </section>
+
+            <section id="collections" class="card">
+                <h2>Looking for more varieties?</h2>
+                <p>
+                    We have a 
+                    <span style="color: green; font-weight: bolder;">
+                        wide range of vegetables
+                    </span>
+                    available in our store, visit us for more.
+                </p>
+            </section>
+
+            <section id="gallery" class="gallery-section">
+                <h2>The Fruit's Gallery</h2>
+                <div class="grid-4-columns">
+                    <div class="fruit-card">
+                        <img src="media/apple.jpg" alt="Apple">
+                        <h3>Apple</h3>
+                        <p>A round, crunchy fruit that is usually red
+                            green, or yellow in color. Apples are rich 
+                            in fiber and vitamin C, making them a healthy snack option.
+                        </p>
+                    </div>
+
+                    <div class="fruit-card">
+                        <img src="media/grapess.jpg" alt="Grapes">
+                        <h3>Grapes</h3>
+                        <p>A small, round fruit that is usually green
+                            red, or purple in color. Grapes are rich 
+                            in antioxidants and vitamin.
+                        </p>
+                    </div>
+
+                    <div class="fruit-card">
+                        <img src="media/mango.webp" alt="Mango">
+                        <h3>Mango</h3>
+                        <p>A tropical fruit with a sweet, juicy flesh and 
+                            a distinctive aroma. Mangos are rich in vitamin C 
+                            and beta-carotene.
+                        </p>
+                    </div>
+
+                    <div class="fruit-card">
+                        <img src="media/watermelon.jpg" alt="Watermelon">
+                        <h3>Watermelon</h3>
+                        <p>A large, juicy fruit with a green rind and red or 
+                            yellow flesh. Watermelons are rich in vitamin C and
+                             lycopene.
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+                <p>COPYRIGHT 2026.  Veggie Tekky Shop</p>
+        </footer>
+    </body>
+</html>
